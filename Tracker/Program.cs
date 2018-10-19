@@ -8,8 +8,17 @@ namespace Tracker
 {
     class Program
     {
-        static void Main(string[] args)
+        private static void Main(string[] args)
+        { 
+            Console.WriteLine("Witam witam");
+            Console.ReadKey();
+            Console.WriteLine("never gonna happen");
+
+        }
+
+        public void zmiana()
         {
+            Console.WriteLine("123");
         }
     }
 }
